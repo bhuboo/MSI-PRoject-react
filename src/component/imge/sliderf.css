@@ -1,0 +1,147 @@
+/* .myslides{
+    width: 100%;
+    height: 40vh;
+} */
+.image{
+    height: 68vh;
+    width: 100%;
+}
+.myslidesnone{
+    display: none;
+}
+/* .fade{
+    animation-name: fade ;
+    animation-duration: 1.5s;
+}
+@keyframes fade {
+    from{
+        opacity: .4;
+    }
+    to{
+        opacity: 1;
+    }
+}*/
+@media screen and (min-width: 1025px) and (max-width:1441px) {
+    .image{
+        height: 48vh;
+        width: 100%;
+    }
+    .myslidesnone{
+        display: none;
+    }
+}
+@media screen and (min-width: 769px) and (max-width:1025px) {
+    .image{
+        height: 130vh;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+    .myslidesnone{
+        display: none;
+    }
+    /* .fade{
+        animation-name: fade ;
+        animation-duration: 1.5s;
+    }
+    @keyframes fade {
+        from{
+            opacity: .4;
+        }
+        to{
+            opacity: 1;
+        }
+    } */
+}
+@media screen and (min-width: 426px) and (max-width:768px){
+    .image{
+        height: 125vh;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+    .myslidesnone{
+        display: none;
+    }
+    /* .fade{
+        animation-name: fade ;
+        animation-duration: 1.5s;
+    }
+    @keyframes fade {
+        from{
+            opacity: .4;
+        }
+        to{
+            opacity: 1;
+        }
+    } */
+}
+@media screen and (min-width: 376px) and (max-width:426px){
+    .image{
+        height: 76vh;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+    .myslidesnone{
+        display: none;
+    }
+    /* .fade{
+        animation-name: fade ;
+        animation-duration: 1.5s;
+    }
+    @keyframes fade {
+        from{
+            opacity: .4;
+        }
+        to{
+            opacity: 1;
+        }
+    } */
+}
+@media screen and (min-width: 321px) and (max-width:376px){
+    .image{
+        height: 70vh;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+    .myslidesnone{
+        display: none;
+    }
+    /* .fade{
+        animation-name: fade ;
+        animation-duration: 1.5s;
+    }
+    @keyframes fade {
+        from{
+            opacity: .4;
+        }
+        to{
+            opacity: 1;
+        }
+    } */
+}
+@media screen and (min-width: 0px) and (max-width:320px){
+    .image{
+        height: 62vh;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+    .myslidesnone{
+        display: none;
+    }
+    /* .fade{
+        animation-name: fade ;
+        animation-duration: .5s;
+    }
+    @keyframes fade {
+        from{
+            opacity: .4;
+        }
+        to{
+            opacity: 1;
+        }
+    } */
+}

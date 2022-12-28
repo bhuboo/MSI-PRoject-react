@@ -1,0 +1,101 @@
+.box-container{
+  color: aqua;
+}
+.second-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.eight-stack{
+  display: flex;
+}
+.eight-media{
+  display: none;
+}
+@media screen and (max-width:1025px) and (min-width:769px) {
+  .second-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 6px solid rgb(37, 37, 37);
+    margin-top: 2px;
+    background-color: rgb(37, 37, 37);
+  }
+  .eight-stack{
+    display: none;
+  }
+  .eight-media{
+    display: block;
+  }
+    
+}
+@media screen and (max-width:769px) and (min-width:426px){
+  .second-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 6px solid rgb(37, 37, 37);
+    margin-top: 6px;
+    background-color: rgb(37, 37, 37);
+  }
+  .eight-stack{
+    display: none;
+  }
+  .eight-media{
+    display: block;
+  }
+}
+@media screen and (max-width:426px) and (min-width:376px){
+  .second-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 6px solid rgb(37, 37, 37);
+    margin-top: 6px;
+    background-color: rgb(37, 37, 37);
+  }
+  .eight-stack{
+    display: none;
+  }
+  .eight-media{
+    display: block;
+  }
+}
+@media screen and (max-width:376px) and (min-width:321px) {
+  .second-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 6px solid rgb(37, 37, 37);
+    margin-top: 6px;
+    background-color: rgb(37, 37, 37);
+  }
+  .eight-stack{
+    display: none;
+  }
+  .eight-media{
+    display: block;
+  }
+}
+@media screen and (max-width:321px) and (min-width:0px) {
+  .second-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 6px solid rgb(37, 37, 37);
+    margin-top: 6px;
+    background-color: rgb(37, 37, 37);
+  }
+  .eight-stack{
+    display: none;
+  }
+  .eight-media{
+    display: block;
+  }
+}
+@media screen and (max-width:1026px) and (min-width:769px){
+  .eight-media{
+      display: inline-block;
+      width: 100%;
+  }
+}

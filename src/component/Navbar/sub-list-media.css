@@ -1,0 +1,20 @@
+.sub-menu-container{
+    background: #eee;
+    width: 100%;
+    margin-left: -2rem;
+}
+.items-sub-product{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: none;
+    font-size: 17px;
+    padding-left: 40px;
+    background: #eee;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #666666;
+}
+.sub-pro-icons{
+    padding-right: 5px;
+}

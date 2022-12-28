@@ -1,0 +1,167 @@
+.seven-container{
+    display: flex;
+    flex-direction: row;
+    height: 260px;
+    width: 100%;
+}
+.seven-one{
+    background: url(./forum.jpg);
+    background-size: cover;
+    width: 25%;
+    border: 6px solid white;
+    border-right: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px 0px 300px rgb(240, 237, 237);
+}
+.seven-one:hover{
+    box-shadow: inset 0px 0px 300px rgb(216, 214, 214);
+}
+.seven-two:hover{
+    box-shadow: inset 0px 0px 300px rgb(216, 214, 214);
+}
+.seven-three:hover{
+    box-shadow: inset 0px 0px 300px rgb(216, 214, 214);
+}
+.seven-four:hover{
+    box-shadow: inset 0px 0px 300px rgb(216, 214, 214);
+}
+.seven-one-para{
+    font-size: 20px;
+    color: #303030;
+    z-index: 1;
+}
+.seven-two{
+    background: url(./reward.jpg);
+    background-size: cover;
+    width: 25%;
+    border: 6px solid white;
+    border-right: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px 0px 300px rgb(240, 237, 237);
+}
+.seven-two-para{
+    font-size: 20px;
+    color: #303030;
+    z-index: 1;
+}
+.seven-three{
+    background: url(./video.jpg);
+    background-size: cover;
+    width: 25%;
+    border: 6px solid white;
+    border-right: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px 0px 300px rgb(240, 237, 237);
+}
+.seven-three-para{
+    font-size: 20px;
+    color: #303030;
+}
+.seven-four{
+    background: url(./insider.jpg);
+    background-size: cover;
+    width: 25%;
+    border: 6px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px 0px 300px rgb(240, 237, 237);
+}
+.seven-four-para{
+    font-size: 20px;
+    color: #303030;
+    z-index: 1;
+}
+@media screen and (max-width:1025px) and (min-width:769px) {
+    .seven-container{
+        display: flex;
+        flex-direction: row;
+        height: 200px;
+        width: 100%;
+    }
+    .seven-one{
+        background: url(./forum.jpg);
+        background-size: cover;
+        width: 25%;
+        border: 6px solid white;
+        border-right: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: inset 0px 0px 300px rgb(240, 237, 237);
+    }
+    .seven-one:hover{
+        box-shadow: inset 0px 0px 300px rgb(216, 214, 214);
+    }
+    .seven-two:hover{
+        box-shadow: inset 0px 0px 300px rgb(216, 214, 214);
+    }
+    .seven-three:hover{
+        box-shadow: inset 0px 0px 300px rgb(216, 214, 214);
+    }
+    .seven-four:hover{
+        box-shadow: inset 0px 0px 300px rgb(216, 214, 214);
+    }
+    .seven-one-para{
+        font-size: 20px;
+        color: #303030;
+        z-index: 1;
+    }
+    .seven-two{
+        background: url(./reward.jpg);
+        background-size: cover;
+        width: 25%;
+        border: 6px solid white;
+        border-right: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: inset 0px 0px 300px rgb(240, 237, 237);
+    }
+    .seven-two-para{
+        font-size: 20px;
+        color: #303030;
+        z-index: 1;
+    }
+    .seven-three{
+        background: url(./video.jpg);
+        background-size: cover;
+        width: 25%;
+        border: 6px solid white;
+        border-right: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: inset 0px 0px 300px rgb(240, 237, 237);
+    }
+    .seven-three-para{
+        font-size: 20px;
+        color: #303030;
+    }
+    .seven-four{
+        background: url(./insider.jpg);
+        background-size: cover;
+        width: 25%;
+        border: 6px solid white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: inset 0px 0px 300px rgb(240, 237, 237);
+    }
+    .seven-four-para{
+        font-size: 20px;
+        color: #303030;
+        z-index: 1;
+    }   
+}
+@media screen and (max-width:769px) and (min-width:0px){
+    .seven-container{
+        display: none;
+    }
+}

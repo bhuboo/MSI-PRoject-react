@@ -1,0 +1,531 @@
+.container-one-two{
+    display: flex;
+    flex-direction:column;
+}
+.fifth-one{
+    background: url(./image/fifthtwo.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 258.5px;
+    width: 100%;
+    border: 6px solid white;
+    border-bottom: 3px solid white;
+    border-left: none;
+}
+.fifth-two{
+    background: url(./image/fifththree.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 258.5px;
+    width: 100%;
+    border: 6px solid white;
+    border-left:none;
+    border-top: 3px solid white;
+}
+.Automotive{
+    text-align: center;
+    display: flex;
+    justify-content:center;
+    font-size: 20px;
+    background: #00000059;
+    color: #ffffff;
+    margin-top: 13rem;
+    padding: 13px 0px 13px 0px;
+}
+.server{
+    text-align: center;
+    display: flex;
+    justify-content:center;
+    font-size: 20px;
+    background: #00000059;
+    color: #ffffff;
+    margin-top: 13rem;
+    padding: 13px 0px 13px 0px;
+}
+.Automotive-para{
+    display: none;
+}
+.fifth-one:hover .Automotive-para{
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+    position: relative;
+    background: #00000059;
+    top: -16px;
+    display: block;
+    padding: 0px 0px 26px 0px;
+}
+.fifth-one:hover .Automotive{
+    margin-top: 10rem;
+}
+.server-para{
+    display: none;
+}
+.fifth-two:hover .server-para{
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+    position: relative;
+    background: #00000059;
+    top: -16px;
+    display: block;
+    padding: 0px 0px 26px 0px;
+}
+.fifth-two:hover .server{
+    margin-top: 10rem;
+}
+@media screen and (max-width:1441px) and (min-width:1026px){
+    .container-one-two{
+        display: flex;
+        flex-direction:column;
+    }
+    .fifth-one{
+        background: url(./image/fifthtwo.jpeg);
+        background-size: cover;
+        background-position: center;
+        height: 258.5px;
+        width: 100%;
+        border: 6px solid white;
+        border-bottom: 3px solid white;
+        border-left: none;
+    }
+    .fifth-two{
+        background: url(./image/fifththree.jpeg);
+        background-size: cover;
+        background-position: center;
+        height: 258.5px;
+        width: 100%;
+        border: 6px solid white;
+        border-left:none;
+        border-top: 3px solid white;
+    }
+    .Automotive{
+        text-align: center;
+        display: flex;
+        justify-content:center;
+        font-size: 20px;
+        background: #00000059;
+        color: #ffffff;
+        margin-top: 13rem;
+        padding: 13px 0px 13px 0px;
+    }
+    .server{
+        text-align: center;
+        display: flex;
+        justify-content:center;
+        font-size: 20px;
+        background: #00000059;
+        color: #ffffff;
+        margin-top: 13rem;
+        padding: 13px 0px 13px 0px;
+    }
+    .Automotive-para{
+        display: none;
+    }
+    .fifth-one:hover .Automotive-para{
+        text-align: center;
+        font-size: 16px;
+        color: #ffffff;
+        position: relative;
+        background: #00000059;
+        top: -16px;
+        display: block;
+        padding: 0px 0px 26px 0px;
+    }
+    .fifth-one:hover .Automotive{
+        margin-top: 10rem;
+    }
+    .server-para{
+        display: none;
+    }
+    .fifth-two:hover .server-para{
+        text-align: center;
+        font-size: 16px;
+        color: #ffffff;
+        position: relative;
+        background: #00000059;
+        top: -16px;
+        display: block;
+        padding: 0px 0px 26px 0px;
+    }
+    .fifth-two:hover .server{
+        margin-top: 10rem;
+    }
+}
+@media screen and (max-width:1025px) and (min-width:769px){
+    .container-one-two{
+        display: flex;
+        flex-direction:row;
+    }
+    .fifth-one{
+        background: url(./image/fifthtwo.jpeg);
+        background-size: cover;
+        background-position: center;
+        height: 366px;
+        width: 96%;
+        border: 6px solid white;
+        border-right: none;
+    }
+    .fifth-two{
+        background: url(./image/fifththree.jpeg);
+        background-size: cover;
+        background-position: center;
+        height: 366px;
+        width: 96%;
+        border: 6px solid white;
+    }
+    .Automotive{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        background: #00000059;
+        color: #ffffff;
+        margin-top: 18rem;
+        padding: 22px 0px 22px 0px;
+    }
+    .server{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        background: #00000059;
+        color: #ffffff;
+        margin-top: 18rem;
+        padding: 24px 0px 24px 0px;
+    }
+    .Automotive-para{
+        display: none;
+    }
+    .fifth-one:hover .Automotive-para{
+        text-align: center;
+        font-size: 16px;
+        color: #ffffff;
+        position: relative;
+        background: #00000059;
+        top: -16px;
+        display: block;
+        padding: 0px 0px 26px 0px;
+    }
+    .fifth-one:hover .Automotive{
+        margin-top: 15rem;
+    }
+    .server-para{
+        display: none;
+    }
+    .fifth-two:hover .server-para{
+        text-align: center;
+        font-size: 16px;
+        color: #ffffff;
+        position: relative;
+        background: #00000059;
+        top: -16px;
+        display: block;
+        padding: 0px 0px 26px 0px;
+    }
+    .fifth-two:hover .server{
+        margin-top: 15rem;
+    }   
+}
+@media screen and (max-width:769px) and (min-width:425px){
+    .container-one-two{
+        display: flex;
+        flex-direction:column;
+    }
+    .fifth-one{
+        background: url(./image/fifthtwo.jpeg);
+        background-size: cover;
+        background-position: center;
+        height: 300px;
+        width: 98%;
+        border: 6px solid white;
+    }
+    .fifth-two{
+        background: url(./image/fifththree.jpeg);
+        background-size: cover;
+        background-position: center;
+        height: 300px;
+        width: 98%;
+        border: 6px solid white;
+    }
+    .Automotive{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        background: #00000059;
+        color: #ffffff;
+        margin-top: 15rem;
+        padding: 22px 0px 22px 0px;
+    }
+    .server{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        background: #00000059;
+        color: #ffffff;
+        margin-top: 14rem;
+        padding: 26px 0px 28px 0px;
+    }
+    .Automotive-para{
+        display: none;
+    }
+    .fifth-one:hover .Automotive-para{
+        text-align: center;
+        font-size: 16px;
+        color: #ffffff;
+        position: relative;
+        background: #00000059;
+        top: -16px;
+        display: block;
+        padding: 0px 0px 32px 0px;
+    }
+    .fifth-one:hover .Automotive{
+        margin-top: 11rem;
+    }
+    .server-para{
+        display: none;
+    }
+    .fifth-two:hover .server-para{
+        text-align: center;
+        font-size: 16px;
+        color: #ffffff;
+        position: relative;
+        background: #00000059;
+        top: -16px;
+        display: block;
+        padding: 0px 0px 32px 0px;
+    }
+    .fifth-two:hover .server{
+        margin-top: 10.2rem;
+    }   
+}
+@media screen and (max-width:426px) and (min-width:376px){
+    .container-one-two{
+        display: flex;
+        flex-direction:column;
+    }
+    .fifth-one{
+        background: url(./image/fifthtwo.jpeg);
+        background-size: cover;
+        background-position: center;
+        height: 300px;
+        width: 96%;
+        border: 6px solid white;
+        border-top: none;
+    }
+    .fifth-two{
+        background: url(./image/fifththree.jpeg);
+        background-size: cover;
+        background-position: center;
+        height: 300px;
+        width: 96%;
+        border: 6px solid white;
+        border-top: none;
+    }
+    .Automotive{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        background: #00000059;
+        color: #ffffff;
+        margin-top: 14.5rem;
+        padding: 22px 0px 22px 0px;
+    }
+    .server{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        background: #00000059;
+        color: #ffffff;
+        margin-top: 13.6rem;
+        padding: 26px 0px 28px 0px;
+    }
+    .Automotive-para{
+        display: none;
+    }
+    .fifth-one:hover .Automotive-para{
+        text-align: center;
+        font-size: 16px;
+        color: #ffffff;
+        position: relative;
+        background: #00000059;
+        top: -16px;
+        display: block;
+        padding: 0px 0px 32px 0px;
+    }
+    .fifth-one:hover .Automotive{
+        margin-top: 11rem;
+    }
+    .server-para{
+        display: none;
+    }
+    .fifth-two:hover .server-para{
+        text-align: center;
+        font-size: 16px;
+        color: #ffffff;
+        position: relative;
+        background: #00000059;
+        top: -16px;
+        display: block;
+        padding: 0px 0px 32px 0px;
+    }
+    .fifth-two:hover .server{
+        margin-top: 10rem;
+    }   
+}
+@media screen and (max-width:376px) and (min-width:326px){
+    .container-one-two{
+        display: flex;
+        flex-direction:column;
+    }
+    .fifth-one{
+        background: url(./image/fifthtwo.jpeg);
+        background-size: cover;
+        background-position: center;
+        height: 300px;
+        width: 96%;
+        border: 6px solid white;
+        border-top: none;
+    }
+    .fifth-two{
+        background: url(./image/fifththree.jpeg);
+        background-size: cover;
+        background-position: center;
+        height: 300px;
+        width: 96%;
+        border: 6px solid white;
+        border-top: none;
+    }
+    .Automotive{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        background: #00000059;
+        color: #ffffff;
+        margin-top: 14.4rem;
+        padding: 22px 0px 22px 0px;
+    }
+    .server{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        background: #00000059;
+        color: #ffffff;
+        margin-top: 13.8rem;
+        padding: 26px 0px 28px 0px;
+    }
+    .Automotive-para{
+        display: none;
+    }
+    .fifth-one:hover .Automotive-para{
+        text-align: center;
+        font-size: 16px;
+        color: #ffffff;
+        position: relative;
+        background: #00000059;
+        top: -16px;
+        display: block;
+        padding: 0px 0px 32px 0px;
+    }
+    .fifth-one:hover .Automotive{
+        margin-top: 11rem;
+    }
+    .server-para{
+        display: none;
+    }
+    .fifth-two:hover .server-para{
+        text-align: center;
+        font-size: 16px;
+        color: #ffffff;
+        position: relative;
+        background: #00000059;
+        top: -16px;
+        display: block;
+        padding: 0px 0px 32px 0px;
+    }
+    .fifth-two:hover .server{
+        margin-top: 10.4rem;
+    }   
+}
+@media screen and (max-width:326px) and (min-width:0px){
+    .container-one-two{
+        display: flex;
+        flex-direction:column;
+    }
+    .fifth-one{
+        background: url(./image/fifthtwo.jpeg);
+        background-size: cover;
+        background-position: center;
+        height: 264px;
+        width: 96%;
+        border: 6px solid white;
+       border-top: none;
+    }
+    .fifth-two{
+        background: url(./image/fifththree.jpeg);
+        background-size: cover;
+        background-position: center;
+        height: 264px;
+        width: 96%;
+        border: 6px solid white;
+        border-top: none;
+    }
+    .Automotive{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        background: #00000059;
+        color: #ffffff;
+        margin-top: 12.8rem;
+        padding: 12px 0px 22px 0px;
+    }
+    .server{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        background: #00000059;
+        color: #ffffff;
+        margin-top: 12.4rem;
+        padding: 12px 0px 28px 0px;
+    }
+    .Automotive-para{
+        display: none;
+    }
+    .fifth-one:hover .Automotive-para{
+        text-align: center;
+        font-size: 16px;
+        color: #ffffff;
+        position: relative;
+        background: #00000059;
+        top: -16px;
+        display: block;
+        padding: 0px 0px 32px 0px;
+    }
+    .fifth-one:hover .Automotive{
+        margin-top: 9.4rem;
+    }
+    .server-para{
+        display: none;
+    }
+    .fifth-two:hover .server-para{
+        text-align: center;
+        font-size: 16px;
+        color: #ffffff;
+        position: relative;
+        background: #00000059;
+        top: -16px;
+        display: block;
+        padding: 0px 0px 32px 0px;
+    }
+    .fifth-two:hover .server{
+        margin-top: 9rem;
+    }   
+}
